@@ -36,3 +36,140 @@
     transform: rotate(360deg);
   }
 }
+/* ===============================notification start================ */
+*{ margin: 0;
+padding:0;
+box-sizing: border-box;
+}
+body{
+ background-color:aliceblue;
+}
+.container{
+
+  margin-top: 3rem;
+
+  display: flex;
+  justify-content: center;
+
+}
+.main-div{
+  /* margin-left: 1rem; */
+  background-color: white;
+  height:43rem;
+  width: 44rem;
+  border-style:none ;
+  border-radius: 20px;
+  margin-bottom: 3rem;
+  
+  /* display: flex; */
+}
+.navbar{
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+  display:flex;
+  /* align-items: center; */
+}
+.flex{display:flex;
+}
+.border{
+  margin-top:3px;
+  margin-left: 1rem;
+  width: 2rem;
+  height: 1.5rem;
+  border-radius: 7px;
+  background-color:darkblue;
+  
+  
+}
+.numbr{
+  
+  font-family: 'Alkalami', serif;
+  color: azure;
+  text-align: center;
+  
+}
+
+.right{
+   margin-left: 20rem;
+   
+   display:flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   color:grey;
+}
+
+.mark{
+  margin-top: 5px;
+  margin-left: 1.5rem;
+  border-style:none;
+  border-radius: 10px;
+  width: 40rem ;
+  height:4rem;
+  display: flex;
+  flex-direction: row;
+  background-color: aliceblue;
+
+
+}
+.img-mark{margin-top:1rem;
+  margin-left:1rem;
+  height:2.2rem;}
+  .grey-text{
+    color:grey;
+  }
+  .blue-text{
+    color: rgb(0, 98, 255);
+  }
+
+
+strong{
+   color:black; 
+  }
+.mark-notify{ 
+  color: rgba(145, 141, 141, 0.919);
+  margin-top: 0.9rem;
+  margin-left: 1rem;
+}
+.red{height:7px;}
+.rizky{
+  margin-left: 1.5rem;
+  display:flex;
+}
+.msg-div{ 
+  margin-left:6rem ;
+  margin-top:1rem;
+  margin-right: 3.5rem;
+  height:6rem;
+  border:1px rgb(201, 200, 200) solid;
+  padding:0.5rem;
+  border-radius: 5px;
+  
+}
+.msg{
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  color: rgb(126, 125, 125);
+}
+.kimberly{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.img-kim{
+  margin-left:2rem;
+  height:2.3rem;
+}
+
+.smith-notify{
+  margin-left: 1rem;
+  margin-right:7rem;
+}
+.smith{
+  color:grey;
+  margin-top:1rem;
+}
+.ht-wt{
+  margin-left:33rem;
+  height:2.2rem;
+}
